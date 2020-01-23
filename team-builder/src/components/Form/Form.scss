@@ -1,0 +1,30 @@
+.container {
+
+    .addForm {
+
+        .inputs {
+            
+        }
+
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+.team-members {
+
+    h1 {
+        font-size: 1.6rem;
+        padding-top: 1%;
+    }
+    .people {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        align-content: center;
+        margin: auto;
+    }
+}
+

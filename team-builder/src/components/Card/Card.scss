@@ -1,0 +1,26 @@
+.card {
+    border: 1.2px solid black;
+    width: 46vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px lightgray;
+    transition-property: box-shadow, color, background-color, border-color;
+    transition-duration: 0.5s;
+
+    &:hover {
+        transition-property: box-shadow, background-color, color, border-color;
+        transition-duration: 0.5s;
+        box-shadow: 4.5px 4.5px white;
+        background-color: slategray;
+        color: white;
+        border-color: white;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.wrapper {
+    padding: 1%;
+}
